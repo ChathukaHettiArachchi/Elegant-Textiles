@@ -6,6 +6,14 @@ export default function ProductCard({ product }) {
 
   return (
     <div className="bg-gradient-to-br from-white-800 to-neutral-300 rounded-xl p-6 border border-neutral-800">
+
+ 
+      <img
+        src={product.image}
+        alt={product.name}
+        className="h-60 w-full object-cover rounded-lg mb-4"
+      />
+
       <h4 className="text-xl font-semibold mb-2">{product.name}</h4>
       <p className="text-black-400 mb-2">${product.price}</p>
       <p className="text-sm text-gray-500 mb-4">

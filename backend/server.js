@@ -5,6 +5,10 @@ require("dotenv").config();
 
 const app = express();
 
+const uploadRoutes = require("./routes/uploadRoutes");
+app.use("/api/upload", uploadRoutes);
+
+
 app.use(cors());
 app.use(express.json());
 
