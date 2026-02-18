@@ -8,9 +8,13 @@ A modern full-stack ecommerce web application for a textile shop built using the
 🖥 Frontend
 
 React (Vite)
+
 Tailwind CSS
+
 React Context API (Cart Management)
+
 Three.js (Hero Animation)
+
 Responsive UI
 
 ⚙ Backend
