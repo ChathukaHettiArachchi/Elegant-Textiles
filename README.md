@@ -17,22 +17,35 @@ Three.js (Hero Animation)
 
 Responsive UI
 
+
 ⚙ Backend
 
 Node.js
+
 Express.js
+
 MongoDB
+
 Mongoose
+
 Cloudinary (Image Hosting)
+
 Multer (File Upload Handling)
+
+
 
 ✨ Features
 
 🛍 Product listing from MongoDB
+
 🖼 Cloudinary image integration
+
 🔍 Search functionality
+
 👕 Category & Gender filtering (Gents / Ladies / Kids)
+
 🛒 Cart system with live count
+
 📦 Dynamic product loading from backend
 
 🎨 Modern UI with animated hero section
