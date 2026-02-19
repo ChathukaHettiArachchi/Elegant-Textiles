@@ -8,7 +8,7 @@ export default function ProductCard({ product }) {
         <h4 className="text-xl font-semibold mb-2">{product.name}</h4>
         <p className="text-neutral-400 mb-4">${product.price}</p>
 
-        <button className="bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-300 transition">
+        <button className="bg-yellow-400 text-black px-4 py-2 rounded-lg hover:bg-yellow-300 transition cursor-pointer">
           Add to Cart
         </button>
       </div>
