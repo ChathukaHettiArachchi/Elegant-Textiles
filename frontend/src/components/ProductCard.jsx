@@ -22,7 +22,7 @@ export default function ProductCard({ product }) {
 
       <button
         onClick={() => addToCart(product)}
-        className="bg-yellow-400 text-black px-4 py-2 rounded-lg"
+        className="bg-yellow-400 text-black px-4 py-2 rounded-lg cursor-pointer"
       >
         Add to Cart
       </button>
